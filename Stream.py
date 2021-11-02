@@ -1,14 +1,12 @@
-# Part 01 using opencv access webcam and transmit the video in HTML
 import cv2
 import  pyshine as ps #  pip3 install pyshine==0.0.9
 HTML="""
 <html>
 <head>
-<title>PyShine Live Streaming</title>
 </head>
 
 <body>
-<center><h1> PyShine Live Streaming using OpenCV </h1></center>
+
 <center><img src="stream.mjpg" width='640' height='480' autoplay playsinline></center>
 </body>
 </html>
